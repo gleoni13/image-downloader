@@ -17,6 +17,8 @@ Install all required dependencies by running:
 ```bash
 pip install -r requirements.txt
 
+```
+
 ## 💡 Usage Guide
 
 ### 1. Batch Image Downloader (`image_downloader.py`)
