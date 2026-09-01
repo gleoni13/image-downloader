@@ -16,3 +16,13 @@ Install all required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
+
+## 💡 Usage Guide
+
+### 1. Batch Image Downloader (`image_downloader.py`)
+1. Open `image_downloader.py` and add your target image links to the `url_immagini` list:
+   ```python
+   url_immagini = [
+       "[https://example.com/image1.jpg](https://example.com/image1.jpg)",
+       "[https://example.com/image2.jpg](https://example.com/image2.jpg)"
+   ]
