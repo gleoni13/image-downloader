@@ -32,16 +32,16 @@ pip install -r requirements.txt
 
    ```
 
- ### 2. Scribd to PDF Converter (`scribd_to_pdf.py`)
-1. Save `scribd_to_pdf.py` in an empty folder.
-2. Open `scribd_to_pdf.py` and set the url variable to your target Scribd document:
+ ### 2. Scribd to PDF Converter (`website_scribd_pdf_downloader.py`)
+1. Save `website_scribd_pdf_downloader.py` in an empty folder.
+2. Open `website_scribd_pdf_downloader.py` and set the url variable to your target Scribd document:
    ```python
    url = "[https://example.com/document](https://example.com/document)"
 
    ```
 3. Run the script:
    ```python
-   python scribd_to_pdf.py
+   python website_scribd_pdf_downloader.py
 
    ```
 4. An automated Chrome window will open with a standardized high resolution (`1400x2000`).
@@ -52,4 +52,4 @@ pip install -r requirements.txt
    * Scroll page-by-page with dynamic pauses to allow text lazy-loading.
    * Capture clean screenshots of each page element.
    * Standardize all image dimensions using Lanczos resampling.
-   * Merge images into a single output PDF (`Brancalonia_X1_Pugno_Luppoli.pdf`) and clean up temporary `.png` files.
+   * Merge images into a single output PDF (`example.pdf`) and clean up temporary `.png` files.
