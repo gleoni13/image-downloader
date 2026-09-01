@@ -28,3 +28,26 @@ pip install -r requirements.txt
        "[https://example.com/image1.jpg](https://example.com/image1.jpg)",
        "[https://example.com/image2.jpg](https://example.com/image2.jpg)"
    ]
+
+   ```
+
+ ### 2. Scribd to PDF Converter (`scribd_to_pdf.py`)
+1. Open `scribd_to_pdf.py` and set the url variable to your target Scribd document:
+   ```python
+   url = "[https://example.com/document](https://example.com/document)"
+
+   ```
+2. Run the script:
+   ```python
+   python scribd_to_pdf.py
+
+   ```
+3. An automated Chrome window will open with a standardized high resolution (`1400x2000`)[cite: 3].
+4. Dismiss any cookie banners manually or log into your Scribd account if required[cite: 3].
+5. Return to your terminal and press **ENTER** to initiate the extraction process[cite: 3].
+6. The script will automatically:
+   * Inject JavaScript to hide UI headers, sticky elements, and ads[cite: 3].
+   * Scroll page-by-page with dynamic pauses to allow text lazy-loading[cite: 3].
+   * Capture clean screenshots of each page element[cite: 3].
+   * Standardize all image dimensions using Lanczos resampling[cite: 3].
+   * Merge images into a single output PDF (`Brancalonia_X1_Pugno_Luppoli.pdf`) and clean up temporary `.png` files[cite: 3].
