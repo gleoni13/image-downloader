@@ -42,12 +42,12 @@ pip install -r requirements.txt
    python scribd_to_pdf.py
 
    ```
-3. An automated Chrome window will open with a standardized high resolution (`1400x2000`)[cite: 3].
-4. Dismiss any cookie banners manually or log into your Scribd account if required[cite: 3].
-5. Return to your terminal and press **ENTER** to initiate the extraction process[cite: 3].
+3. An automated Chrome window will open with a standardized high resolution (`1400x2000`).
+4. Dismiss any cookie banners manually or log into your Scribd account if required.
+5. Return to your terminal and press **ENTER** to initiate the extraction process.
 6. The script will automatically:
-   * Inject JavaScript to hide UI headers, sticky elements, and ads[cite: 3].
-   * Scroll page-by-page with dynamic pauses to allow text lazy-loading[cite: 3].
-   * Capture clean screenshots of each page element[cite: 3].
-   * Standardize all image dimensions using Lanczos resampling[cite: 3].
-   * Merge images into a single output PDF (`Brancalonia_X1_Pugno_Luppoli.pdf`) and clean up temporary `.png` files[cite: 3].
+   * Inject JavaScript to hide UI headers, sticky elements, and ads.
+   * Scroll page-by-page with dynamic pauses to allow text lazy-loading.
+   * Capture clean screenshots of each page element.
+   * Standardize all image dimensions using Lanczos resampling.
+   * Merge images into a single output PDF (`Brancalonia_X1_Pugno_Luppoli.pdf`) and clean up temporary `.png` files.
