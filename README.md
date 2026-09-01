@@ -1,18 +1,18 @@
 # Python Web Utilities
 
-Una raccolta di script in Python progettati per l'automazione del download massivo di media e lo scraping con conversione di documenti web in PDF.
+A collection of Python scripts designed for automating bulk media downloads and scraping/converting web documents into PDF format.
 
-## 🚀 Caratteristiche
+## 🚀 Features
 
-* **Batch Image Downloader**: Scarica elenchi di immagini tramite streaming HTTP, gestendo la RAM in modo ottimizzato e tollerando gli errori di rete.
-* **Scribd Document Scraper**: Estrae documenti da Scribd rimuovendo l'interfaccia di disturbo via JavaScript injection, catturando screenshot ad alta risoluzione e ricomponendoli in un PDF unificato con dimensioni uniformate.
+* **Batch Image Downloader**: Downloads lists of images via HTTP streaming, optimizing RAM usage and handling network errors gracefully.
+* **Scribd Document Scraper**: Extracts documents from Scribd by stripping intrusive UI elements via JavaScript injection, capturing high-resolution screenshots, and reassembling them into a standardized, unified PDF.
 
-## 🛠️ Requisiti e Dipendenze
+## 🛠️ Prerequisites & Dependencies
 
-* **Python**: versione 3.8 o superiore
-* **Google Chrome**: necessario per l'esecuzione del modulo Selenium
+* **Python**: version 3.8 or higher
+* **Google Chrome**: required for Selenium execution
 
-Installa le dipendenze eseguendo:
+Install all required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
